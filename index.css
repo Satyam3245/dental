@@ -146,7 +146,6 @@ html, body{
   color:#666;
 }
 
-/* FORM */
 
 .hero-right input{
   width:100%;
@@ -157,7 +156,6 @@ html, body{
   font-size:14px;
 }
 
-/* CAPTCHA */
 
 .captcha{
   display:flex;
@@ -183,7 +181,7 @@ html, body{
   height: 45px;
 }
 
-/* CHECKBOX */
+
 
 .checkbox{
   display:flex;
@@ -193,7 +191,7 @@ html, body{
   align-items: center;
 }
 
-/* BUTTON */
+
 
 .btn-primary{
   background:#F58220;
@@ -207,7 +205,7 @@ html, body{
   cursor:pointer;
 }
 
-/* STATS SECTION */
+
 
 .hospital-stats{
   background:#FFFAF5;
@@ -593,16 +591,18 @@ summary {
     color: #F58420;
 }
 
-/* Main Container */
+
+
+
 .appointment-book {
   background: #FFF9F4; 
-  padding: 50px 60px; /* Right and Left padding for axis look */
+  padding: 50px 60px; 
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center; 
   margin: 20px 40px;
-  gap: 40px; /* Gap between H2 and the Form */
+  gap: 40px; 
 }
 
 .appointment-book h2 {
@@ -612,18 +612,21 @@ summary {
   font-family: sans-serif;
 }
 
-/* Specific Form Styling using ID */
+
+
+
+
 #clove-appointment-form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 35px; /* Gap between inputs and the button/checkbox row */
+  gap: 35px; 
 }
 
 #clove-appointment-form .input-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
-  gap: 20px; /* Gap between individual inputs */
+  gap: 20px; 
   width: 100%;
 }
 
@@ -634,10 +637,13 @@ summary {
   padding: 12px 20px;
   font-size: 15px;
   width: 100%;
-  box-sizing: border-box; /* Ensures padding doesn't break width */
+  box-sizing: border-box; 
 }
 
-/* Captcha Box Styling */
+
+
+
+
 #clove-appointment-form .captcha-box {
   display: flex;
   border: 1px solid #FFE0C4;
@@ -661,7 +667,9 @@ summary {
   font-weight: bold;
 }
 
-/* Bottom Row (Checkbox + Button) */
+
+
+
 #clove-appointment-form .checkbox-row {
   display: flex;
   align-items: center;
@@ -692,9 +700,11 @@ summary {
 
 
 
-/* ============================= */
-/* iPhone 11 / 12 / 13 (390px)   */
-/* ============================= */
+
+
+
+
+/* Responsivee  */
 
 @media (max-width: 400px){
 
@@ -707,7 +717,10 @@ summary {
   display:none; /* hide book appointment */
 }
 
-/* HEADER */
+
+
+
+
 
 .container-header-inner{
   padding:0 10px;
@@ -732,7 +745,10 @@ summary {
   padding:6px 10px;
 }
 
-/* HERO */
+
+
+
+
 
 .hero-container{
   grid-template-columns:1fr;
@@ -752,7 +768,10 @@ summary {
   width:100%;
 }
 
-/* HOSPITAL STATS */
+
+
+
+
 
 .hospital-stats > div{
   display:flex;
@@ -772,7 +791,10 @@ summary {
   min-width:110px;
   text-align:center;
 }
-/* RCT SECTION */
+
+
+
+
 
 .rct-intro{
   text-align:center;
@@ -805,7 +827,10 @@ summary {
 .rct-info button{
   width:100%;
 }
-/* RESULTS GRID */
+
+
+
+
 
 .results-header{
   text-align:center;
@@ -827,7 +852,10 @@ summary {
   flex:0 0 70%;
 }
 
-/* FAQ */
+
+
+
+
 
 .faq-content{
   flex-direction:column;
@@ -847,7 +875,9 @@ summary {
   height:auto;
 }
 
-/* APPOINTMENT BOOK */
+
+
+
 
 .appointment-book{
   margin:20px 10px;
@@ -867,7 +897,12 @@ summary {
   width:100%;
 }
 
-/* CONSULTATION SECTION */
+
+
+
+
+
+
 
 .consultation-section{
   grid-template-columns:1fr;
@@ -888,7 +923,9 @@ summary {
   width:100%;
 }
 
-/* FOOTER */
+
+
+
 
 .footer-section{
   flex-direction:column;
