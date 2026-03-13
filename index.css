@@ -1052,6 +1052,13 @@ summary {
   font-size:26px;
 }
 
+
+button:disabled{
+  opacity:0.5;
+  cursor:not-allowed;
+}
+
+
 .results-grid{
   grid-template-columns:repeat(2,1fr);
   padding:20px;

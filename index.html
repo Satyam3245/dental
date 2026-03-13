@@ -50,24 +50,26 @@
 
         <form>
 
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" required>
 
-          <input type="text" placeholder="Mobile Number">
+          <input type="text" placeholder="Mobile Number" required>
 
           <div class="captcha">
-            <input type="text" placeholder="Captcha">
+            <input type="text" placeholder="Captcha" required>
             <span class="code">1514</span>
           </div>
 
           <label class="checkbox">
-            <input type="checkbox">
+            <input type="checkbox" required>
             I agree to CLOVE Dental’s Terms and Privacy Policy and consent to contact via phone, email, or SMS.
           </label>
           
-          <button onclick="alert('Consultation is Booked !')"  class="btn-primary">
-            Book a Free Consultation
+          <button type="submit" class="btn-primary">
+                  Book a Free Consultation
           </button>
 
+
+          
         </form>
 
       </div>
@@ -153,7 +155,9 @@
                     <h5>Starting Price</h5>
                     <h3>₹ 19,999</h3>
                 </div>
-                <button onclick="alert('Call is on the way !')" >Get Free Consultation</button>  
+                <button type="submit" class="btn-primary">
+                  Book a Free Consultation
+                </button>
             </div>
         </div>
         <div class="rct2">
@@ -178,7 +182,9 @@
                         <h5>Starting Price</h5>
                         <h3>₹ 19,999</h3>
                     </div>
-                    <button onclick="alert('Call is on the way !')" >Get Free Consultation</button> 
+                    <button type="submit" class="btn-primary">
+                      Book a Free Consultation
+                    </button>
                 </div> 
             </div>
         </div>
@@ -278,7 +284,9 @@
         <input type="checkbox" required>
         <span class="checkbox-span">I agree to CLOVE Dental's <u>Terms</u> and <u>Privacy Policy</u> and consent to contact via phone, email or SMS.</span>
       </label>
-      <button type="submit" class="appointment-button" onclick="alert('Call is on the way !')" >Book Free Consultation</button>
+      <button type="submit" class="btn-primary">
+        Book a Free Consultation
+      </button>
     </div>
   </form>
 </section>
@@ -289,13 +297,15 @@
     <h2>Expert Guidance for Healthy Smiles</h2>
     <p>Book your free consultation today and take the first step towards healthy, beautiful teeth.</p>
     <form>
-      <input type="text" placeholder="Name">
-      <input type="tel" placeholder="Mobile Number">
+      <input type="text" placeholder="Name" required>
+      <input type="tel" placeholder="Mobile Number" required>
       <label class="checkbox-label">
-        <input type="checkbox">
+        <input type="checkbox" required>
         <span>I agree to CLOVE Dental’s Terms and Privacy Policy...</span>
       </label>
-      <button  onclick="alert('Call is on the way !')"  type="submit">Book a Free Consultation</button>
+      <button type="submit" class="btn-primary">
+        Book a Free Consultation
+      </button>
     </form>
   </div>
 
