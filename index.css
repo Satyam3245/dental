@@ -706,7 +706,7 @@ summary {
 
 /* Responsivee  */
 
-@media (max-width: 400px){
+@media (max-width: 500px){
 
 /* GLOBAL */
 .container{
@@ -714,7 +714,7 @@ summary {
   padding:0 15px;
 }
 .appointment{
-  display:none; /* hide book appointment */
+  display:none; 
 }
 
 
