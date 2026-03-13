@@ -409,6 +409,41 @@ html, body{
   align-items:flex-start 
 }
 
+.faq-section{
+  padding:60px 20px;
+}
+
+.faq-header{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.faq-content{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+  justify-content:center;   
+  align-items:center;
+  gap:40px;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.accordion-container{
+  width:100%;
+}
+
+.image-container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+.image-container img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
 .accordion-container{
   flex: 0 0 60%;
 }
@@ -939,6 +974,151 @@ summary {
 
 .footer-copyright{
   text-align:center;
+}
+
+}
+
+@media (max-width: 992px){
+
+.container{
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.hero-container{
+  grid-template-columns: 1fr;
+}
+
+.hero-right{
+  padding:40px 25px;
+  text-align:center;
+}
+
+.rct-types{
+  flex-direction:column;
+}
+
+.rct1,
+.rct2{
+  flex-direction:column;
+}
+
+.rct1 img,
+.rct2 img{
+  width:100%;
+  height:auto;
+}
+
+.faq-content{
+  flex-direction:column;
+  padding:0 30px;
+}
+
+.consultation-section{
+  grid-template-columns:1fr;
+}
+
+.offer-card{
+  flex-direction:column;
+}
+
+.footer-section{
+  flex-direction:column;
+  text-align:center;
+}
+
+.footer-links{
+  justify-content:center;
+}
+
+.footer-copyright{
+  text-align:center;
+}
+
+}
+
+@media (max-width:768px){
+
+.container{
+  width:100%;
+  padding:0 15px;
+}
+
+.logo img{
+  height:40px;
+}
+
+.hero-right h3{
+  font-size:26px;
+}
+
+.results-grid{
+  grid-template-columns:repeat(2,1fr);
+  padding:20px;
+}
+
+.rct-types{
+  flex-direction:column;
+  gap:20px;
+}
+
+.offer-footer{
+  flex-direction:column;
+  gap:10px;
+  align-items:flex-start;
+}
+
+.offer-footer button{
+  width:100%;
+}
+
+#clove-appointment-form .input-row{
+  grid-template-columns:1fr;
+}
+
+}
+@media (max-width:480px){
+
+.header-actions{
+  gap:6px;
+}
+
+.logo img{
+  height:35px;
+}
+
+.hero-right{
+  padding:25px 15px;
+}
+
+.hero-right h3{
+  font-size:22px;
+}
+
+.hero-right p{
+  font-size:14px;
+}
+
+.results-grid{
+  display:flex;
+  overflow-x:auto;
+  gap:15px;
+}
+
+.card{
+  flex:0 0 80%;
+}
+
+.faq-content{
+  padding:0 15px;
+}
+
+.image-container img{
+  height:auto;
+}
+
+.appointment-book{
+  padding:25px 15px;
 }
 
 }
